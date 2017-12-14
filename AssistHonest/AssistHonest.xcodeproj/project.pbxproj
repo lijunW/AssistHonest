@@ -137,6 +137,7 @@
 		18EC65D41E1F986400BB4AE4 /* 密码隐藏.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC65CE1E1F986400BB4AE4 /* 密码隐藏.png */; };
 		18EC65D51E1F986400BB4AE4 /* 密码隐藏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC65CF1E1F986400BB4AE4 /* 密码隐藏@2x.png */; };
 		18EC65D61E1F986400BB4AE4 /* 密码隐藏@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC65D01E1F986400BB4AE4 /* 密码隐藏@3x.png */; };
+		314B46B91FE2578800F8F304 /* VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B46B81FE2578800F8F304 /* VC.m */; };
 		3315A6BC228299F8B2CD7CCB /* Pods_AssistHonest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD6233D9382E9EE00667647 /* Pods_AssistHonest.framework */; };
 		38AD21564770387DF65AD258 /* Pods_AssistHonestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0CA8A703C19BCE975B9574 /* Pods_AssistHonestUITests.framework */; };
 		8DF40C160DEAB5B6AD2D79A9 /* Pods_AssistHonestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA181BA2340C3008D1230BD /* Pods_AssistHonestTests.framework */; };
@@ -396,6 +397,8 @@
 		18EC65CE1E1F986400BB4AE4 /* 密码隐藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码隐藏.png"; sourceTree = "<group>"; };
 		18EC65CF1E1F986400BB4AE4 /* 密码隐藏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码隐藏@2x.png"; sourceTree = "<group>"; };
 		18EC65D01E1F986400BB4AE4 /* 密码隐藏@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码隐藏@3x.png"; sourceTree = "<group>"; };
+		314B46B71FE2578800F8F304 /* VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC.h; sourceTree = "<group>"; };
+		314B46B81FE2578800F8F304 /* VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC.m; sourceTree = "<group>"; };
 		45E3DD903FBC0D40299132F0 /* Pods-AssistHonestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssistHonestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssistHonestUITests/Pods-AssistHonestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4BD6233D9382E9EE00667647 /* Pods_AssistHonest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssistHonest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64337E7B3AA0939997197F94 /* Pods-AssistHonest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssistHonest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssistHonest/Pods-AssistHonest.release.xcconfig"; sourceTree = "<group>"; };
@@ -959,6 +962,8 @@
 		18D21AD01E1B897B00FD9DEA = {
 			isa = PBXGroup;
 			children = (
+				314B46B71FE2578800F8F304 /* VC.h */,
+				314B46B81FE2578800F8F304 /* VC.m */,
 				18D21ADB1E1B897B00FD9DEA /* AssistHonest */,
 				18D21AF51E1B897B00FD9DEA /* AssistHonestTests */,
 				18D21B001E1B897C00FD9DEA /* AssistHonestUITests */,
@@ -1572,6 +1577,7 @@
 				181528661E1E3BB1002F1FD6 /* SetupViewController.m in Sources */,
 				1885781F1E2A03EC000BB585 /* TextInfoView.m in Sources */,
 				187850E41E20C98600C7AB65 /* HexColor.m in Sources */,
+				314B46B91FE2578800F8F304 /* VC.m in Sources */,
 				187C0D471E1CEB39008E172A /* NSString+Extension.m in Sources */,
 				187850D61E20C70F00C7AB65 /* TSBlurView.m in Sources */,
 				187C0D251E1CC67B008E172A /* LoginViewController.m in Sources */,
