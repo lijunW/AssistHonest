@@ -14,6 +14,7 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     //这块都是我写的
-
+    UIButton *button = [UIButton new];
+    
 }
 @end
