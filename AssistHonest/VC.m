@@ -14,15 +14,7 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     //这块都是我写的
-<<<<<<< HEAD
-    UIButton *button = [UIButton new];
-    
-=======
 
-    //我又写了一点，写好了，先提交了
-    NSLog(@"log1:%s",__func__);
-    NSLog(@"log2:%s",__func__);
-    NSLog(@"log3:%s",__func__);
->>>>>>> 25b2bd1fceba59761f3185491f527dd3b703f7d6
+
 }
 @end
