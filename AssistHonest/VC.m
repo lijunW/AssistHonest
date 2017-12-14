@@ -10,4 +10,9 @@
 
 @implementation VC
 
+//下面这个是我写的
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    //这块都是我写的
+}
 @end
