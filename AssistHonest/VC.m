@@ -23,7 +23,10 @@
     NSLog(@"log3:%s",__func__);
     
     UIButton *button = [UIButton new];
-    UIButton *button2 = [UIButton new];
+
+
+   //新制造的冲突
+   UIButton *button2 = [UIButton new];
     
     
     
