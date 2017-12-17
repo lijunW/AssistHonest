@@ -14,26 +14,7 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     //这块都是我写的
-    
-    //UIButton *button = [UIButton new];
-
-    //我又写了一点，写好了，先提交了
-    NSLog(@"log1:%s",__func__);
-    NSLog(@"log2:%s",__func__);
-    NSLog(@"log3:%s",__func__);
-    
-    UIButton *button = [UIButton new];
-
-
-   //新制造的冲突
-   UIButton *button2 = [UIButton new];
-    
-    //新的
-    UITableView *tableView = [UITableView new];
-    
-
-   //新制造的冲突3
-   UIButton *button3 = [UIButton new];
+    UIButton *b = [UIButton new];
 
 
     
