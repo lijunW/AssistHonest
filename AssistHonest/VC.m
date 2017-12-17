@@ -1,4 +1,4 @@
-//
+﻿//
 //  VC.m
 //  AssistHonest
 //
@@ -29,6 +29,11 @@
    UIButton *button2 = [UIButton new];
     
     
+
+   //新制造的冲突3
+   UIButton *button3 = [UIButton new];
+
+
     
     
 }
