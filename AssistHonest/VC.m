@@ -28,6 +28,8 @@
    //新制造的冲突
    UIButton *button2 = [UIButton new];
     
+    //新的
+    UITableView *tableView = [UITableView new];
     
     
     
