@@ -15,7 +15,7 @@
     [super viewDidLoad];
     //这块都是我写的
     UIButton *aaa = [[UIButton alloc]init];
-    
-    
+
+
 }
 @end
