@@ -1,4 +1,4 @@
-//
+﻿//
 //  VC.m
 //  AssistHonest
 //
@@ -31,6 +31,11 @@
     //新的
     UITableView *tableView = [UITableView new];
     
+
+   //新制造的冲突3
+   UIButton *button3 = [UIButton new];
+
+
     
     
 }
