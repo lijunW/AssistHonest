@@ -1,4 +1,4 @@
-//
+﻿//
 //  VC.m
 //  AssistHonest
 //
@@ -21,5 +21,7 @@
     NSLog(@"log1:%s",__func__);
     NSLog(@"log2:%s",__func__);
     NSLog(@"log3:%s",__func__);
+
+    NSLog(@"log爱我的 爱我的哇  爱我的:%s",__func__);
 }
 @end
