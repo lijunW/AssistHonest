@@ -19,5 +19,9 @@
     NSLog(@"log1:%s",__func__);
     NSLog(@"log2:%s",__func__);
     NSLog(@"log3:%s",__func__);
+    
+    UIButton *button = [UIButton new];
+    
+    
 }
 @end
